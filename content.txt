@@ -1,0 +1,28 @@
+Brief intro to testing
+
+Unit Tests
+- Fully isolated
+- E.g. testing a function based on given inputs
+- Usually alot of these are written
+
+Integration Tests
+- Testing dependencies between modules
+- E.g. testing a function that calls a function
+
+End to End Tests (Cypress - for front-end)
+- Test the full work flow
+- E.g. Login flow or adding of items in to a task list
+
+Testing Libraries Components
+- Test Runner (Mocha, Jest)
+    - Execute tests and summarize results
+    - For unit and integration
+- Assertion Library (Chai, Jest)
+    - Define testing logic conditions
+    - This must equal to this
+    - This should contain this
+    - For unit and integration
+-  Headless Browsers
+    - Simulates browser interaction
+    - For e2 (Selenium, Cypress)
+
